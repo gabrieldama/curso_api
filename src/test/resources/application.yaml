@@ -5,7 +5,7 @@ spring:
   application:
     name: curso_api
   datasource:
-    url: jdbc:j2:mem:curso_api_test
+    url: jdbc:h2:mem:curso_api_test
     username: sa
     password:
     driver-class-name: org.h2.Driver
